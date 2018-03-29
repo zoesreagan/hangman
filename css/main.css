@@ -1,0 +1,43 @@
+body {
+  background-color: #0e534a;
+
+}
+
+header {
+  color: white;
+  text-align: center;
+  margin: 50px;
+}
+
+
+#background {
+  height: 800px;
+  width: 1410px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(https://vignette.wikia.nocookie.net/twinpeaks/images/0/03/Twin_Peaks_sign.png/revision/latest?cb=20160318022237);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 500;
+
+}
+
+#gameboard {
+  height: 600px;
+  width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgba(174, 249, 155, 0.33);
+  position: absolute;
+  z-index: 1000;
+  top: 250px;
+  left: 200px;
+}
+
+input {
+
+}
+
+#word-blanks {
+
+}
