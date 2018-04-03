@@ -41,8 +41,52 @@ function printWordArr() {
 printWordArr();
 
 
-// const game {
-//   guesses: 10,
-//   guessedLetters: [],
+//now we need to see if the letter provided by player
+//matches a letter in the character name!
+
+
+
+
+
+
+// let userInput = function(){
+//   let f =
+//     document.word;
+//   let b =
+//     f.elements["letters"];
 //
+// let character = b.value;
+//   //letter provided by player
+//
+//   character =
+//     character.toUpperCase();
+//       for(let i = 0; i < wordToArr.length; i++){
+//           if(wordToArr[i] === character) {
+//             wordToArr[i] = character + " ";
+//               let userTurn = true;
+//           }
+//           b.value = "";
+//     }
+//
+// //deletes the input field and replaces it with the new one
+// let blanks = document.getElementById("word-blanks");
+// blanks.innerHTML="";
+// }
+// userInput();
+
+// if a guessed letter is not in the word, the letter will be put on the "wrong letters"-list
+// if (userTurn === false){
+//   let wrongLetters = document.getElementById("wrong-letters");
+//   let letters = document.createTextNode(" " + character);
+//   wrongLetters.appendChild(letters);
+//
+// }
+
+//checks if all letters have been found
+// let finish = true;
+// for (let i = 0; i < wordToArr.length; i++){
+//   if(wordToArr[i] === "_ "){
+//     finish = false;
+//     }
+//   }
 // }

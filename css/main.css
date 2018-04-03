@@ -1,12 +1,18 @@
 body {
-  background-color: #0e534a;
+  background-color: #000000;
 
 }
 
 header {
-  color: white;
   text-align: center;
-  margin: 50px;
+  margin: 25px;
+  font-family: "Century Gothic",  sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #644647;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow:  -1px -1px 0 #47ff52
 }
 
 
@@ -27,17 +33,47 @@ header {
   width: 1050px;
   margin-right: auto;
   margin-left: auto;
-  background-color:rgba(174, 249, 155, 0.33);
+  background-color:rgba(0, 0, 0, 0.7);
   position: absolute;
   z-index: 1000;
   top: 250px;
   left: 200px;
+  box-shadow: 5px 10px #000000;
 }
 
-input {
-
+input[type=text] {
+  background-color: #000000;
+  color:white;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #47ff52;
 }
 
-#word-blanks {
 
+input[type=button] {
+  background-color: #000000;
+  color:white;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #47ff52;
+}
+
+
+#word-blanks, #wrong-letters {
+  text-align: center;
+  margin: 25px;
+  font-family: "Century Gothic",  sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #644647;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow:  -1px -1px 0 #47ff52
+}
+
+#wrong-letters {
+  font-size: 25px;
+  margin-top: 250px;
 }
